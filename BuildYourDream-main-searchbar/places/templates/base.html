@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILDYOURDREAM</title>
+    
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+    <link rel="stylesheet" href="{%static 'searchbar.css'%}">
+  
+
+</head>
+<body> 
+      
+    <header>
+      <h2 class="logo">logo</h2>
+      <nav class="navigation">
+          <a herf="#">Home</a>
+          <a herf="#">About</a>
+          <a herf="#">Phone</a>
+          <a herf="#">Address</a>
+          <button class="btnLogin-popup">Login</button>
+      </nav>
+
+  </header>
+ <!--<div class="container">
+          
+          <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input type="text" placeholder="Enter an address, town or property ID" name="q">
+            <button type="submit"><img src="static/search.png"></button>
+          </form>
+        </div>
+    -->
+     
+  
+ 
+  <div class="wrapper">
+      <div class="form-box login">
+          <h2>Login</h2>
+          <form action="#">
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                  <input type="email" required>
+                  <label>Email</label>
+              </div>
+              <div class="input-box">
+                  <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Password</label>
+              </div>
+              <div class="remember-forget">
+                  <label><input type="checkbox">
+                  Remember me</label>
+                  <a href="#">Forget Password</a>
+              </div>
+              <button type="submit" class="btn">Login</button>
+              <div class="login-register">
+                  <p>Don't have an account? 
+                      <a herf="#" class="register-link">Register</a> </p>
+              </div>
+          </form>
+      </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+   
+    
+
+        
+
+</body>
+</html>

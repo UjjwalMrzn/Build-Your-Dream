@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {%block content%}
+
+<h1>Build Your Dream</h1>
+
+
+<link rel="stylesheet" href="{'home.css'}">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./searchbar.css">
+
+{% for i in products %}
+<div class="card" style="width: 18rem">
+    <h5 class="card-header">{{i.name}} {{i.pk}}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{i.price}}</h5>
+  </div>
+
+{% endfor %}
+
+{% endblock%}
